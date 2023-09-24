@@ -1,26 +1,34 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DashBoard msg="Sticky Notes Dashboard"/>
+  <AddNote/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import DashBoard from './components/DashBoard.vue'
+import AddNote from './components/AddNote.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DashBoard,
+    AddNote
   }
 }
 </script>
 
 <style>
+*{
+  background-color: rgb(202, 236, 245);
+  margin:0;
+}
+body{
+  margin: 0 auto;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 15px;
 }
 </style>
