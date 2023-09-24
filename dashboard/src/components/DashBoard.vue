@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="header">
     <h1>{{ msg }}</h1>
   </div>
 </template>
@@ -17,27 +17,5 @@ export default {
 h1 {
   font-family: cursive;
   font-weight: 700;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #0f0a55;
-}
-a.active{
-    color:green;
-}
-nav{
-  padding-bottom: 20px;
-  text-align: left;
-}
-.logo img{
-  width: 30px;
-  height:30px;
 }
 </style>
